@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.card {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 50px 5px 0 5px;
+    padding: 20px;
+    width: 50%;
+}
+
+.card-disc {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 50px 5px 0 5px;
+    padding: 20px;
+    width: 70%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-disc img {
+    width: 100%;
+}
+
+.card-disc p {
+    font-size: 0.6em;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-disc:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.band-members {
+    padding: 2px 10px;
+    font-size: 1em;
+}
+
+.song {
+    padding: 2px 10px;
+    font-size: 1em;
+}
+
+.nav-bar {
+    background-color: #590f17;
+    padding: 14px 0 14px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-bar-ul {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar-ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header {
+    background-image: url("https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2013/10/15/1331615830797_2/nuevo-disco-de-pearl-jam-lightning-bolt");
+    repeat: no-repeat;
+    position: 0 0;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+}
+
+.aside {
+    font-size: 2em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+#biography {
+    display: flex;
+    justify-content: space-around;
+}
+
+#biography .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.text {
+    margin: 20px 0;
+}
+
+#biography>h2 {}
